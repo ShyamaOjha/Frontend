@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circle Cross</title>
+    <style>
+ td{
+width: 210px;
+height:210px;
+}
+.vert{
+border-left: 1px solid black;
+border-right: 1px solid black;
+}
+.hori{
+ border-top: 1px solid black;
+ border-bottom: 1px solid black;
+ }
+ td:hover{
+ border: 1px solid red;
+ transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+ }
+ table{
+ margin:auto;
+ }
+ h1{
+    text-align: center;
+ }
+ #gametitle{
+    background-color: azure;
+    color: black;
+    font-family: monospace;
+ }
+    </style>
+</head>
+<body>
+    <h1 id="gametitle">Tic Tac Toe Game</h1>
+ <table>
+ <tr>
+ <td></td>
+ <td class="vert"></td>
+ <td></td>
+ </tr>
+ <tr>
+ <td class="hori"></td>
+ <td class="vert hori"></td>
+ <td class="hori"></td>
+ </tr>
+ <tr>
+ <td></td>
+ <td class="vert"></td>
+ <td></td>
+ </tr>
+ </table>
+ </body>
+ </html>
+</body>
+</html>
